@@ -104,7 +104,7 @@ namespace ParkyAPI
             //    //   {
             //    //       Title = "Parky API Trails",
             //    //       Version = "1",
-            //    //       Description = "Udemy Parky API Trails",
+            //    //       Description = "Parky API Trails",
             //    //       Contact = new Microsoft.OpenApi.Models.OpenApiContact()
             //    //       {
             //    //           Email = "admin@gmail.com",
