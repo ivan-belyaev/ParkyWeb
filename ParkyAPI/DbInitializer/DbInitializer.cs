@@ -28,7 +28,7 @@ namespace ParkyAPI.DDbInitializer
             }
             catch (Exception)
             {
-
+                throw new Exception("DB doesn't work");
             }
 
             if (_db.Users.FirstOrDefault(x => x.Role == "Admin") != null) return;
