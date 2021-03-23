@@ -55,6 +55,7 @@ namespace ParkyAPI.DDbInitializer
                 Role = "User"
             });
 
+             // add national parks
             _db.NationalParks.Add(new NationalPark
             {
                 Name = "Bryce National Park",
@@ -73,6 +74,57 @@ namespace ParkyAPI.DDbInitializer
 
             _db.SaveChanges();
 
+            // add trails
+            var park = _db.NationalParks.Where(x => x.Name == "Bryce National Park").Single();
+
+            _db.Trails.Add(new Trail
+            {
+                NationalParkId = park.Id,
+                Name = "Navajo Loop Trail",
+                Distance = 1.4,
+                Elevation = 400,
+                Difficulty = Trail.DifficultyType.Moderate
+            });
+
+            _db.Trails.Add(new Trail
+            {
+                NationalParkId = park.Id,
+                Name = "Queens Garden Trail",
+                Distance = 1.8,
+                Elevation = 980,
+                Difficulty = Trail.DifficultyType.Difficult
+            });
+
+            _db.Trails.Add(new Trail
+            {
+                NationalParkId = park.Id,
+                Name = "Rim Trail",
+                Distance = 5.5,
+                Elevation = 400,
+                Difficulty = Trail.DifficultyType.Easy
+            });
+
+            park = _db.NationalParks.Where(x => x.Name == "Glacier National Park").Single();
+
+            _db.Trails.Add(new Trail
+            {
+                NationalParkId = park.Id,
+                Name = "Grinnell Glacier Trail",
+                Distance = 5.5,
+                Elevation = 400,
+                Difficulty = Trail.DifficultyType.Moderate
+            });
+
+            _db.Trails.Add(new Trail
+            {
+                NationalParkId = park.Id,
+                Name = "Highline Trail",
+                Distance = 2.1,
+                Elevation = 300,
+                Difficulty = Trail.DifficultyType.Easy
+            });
+
+            _db.SaveChanges();
         }
     }
 }
