@@ -12,7 +12,7 @@ API needs JWT for authorizations
 <br />
 <p align="center">
   <a href="https://github.com/ivan-belyaev/ParkyWeb">
-    <img src="https://github.com/ivan-belyaev/ParkyWeb/Parky.png" alt="Logo">
+    <img src="https://github.com/ivan-belyaev/ParkyWeb/blob/master/Parky.png" alt="Logo">
   </a>
 
   <h3 align="center">ParkyWeb</h3>
