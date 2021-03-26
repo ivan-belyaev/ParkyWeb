@@ -1,12 +1,8 @@
-# ParkyWeb
-
 <br />
 <p align="center">
   <a href="https://github.com/ivan-belyaev/ParkyWeb">
     <img src="https://github.com/ivan-belyaev/ParkyWeb/blob/master/Parky.png" alt="Logo">
   </a>
-
-  <h3 align="center">ParkyWeb</h3>
 
   <p align="center">
     ParkyWeb
