@@ -16,8 +16,8 @@
 # Desctription
 
 National parks with trails <br>
-Role: Admin   User - admin    Pass - admin<br>
-Role: User    User - test     Pass - test<br>
+Role: Admin to enter in login page:  User - admin    Pass - admin<br>
+Role:  User to enter in login page:  User - test     Pass - test<br>
 
 Admin would be able to perform all functionality, test user does not have persmission to Edit. <br>
 Admin can create national parks or add trails to national parks.<br>
