@@ -13,7 +13,7 @@
   </p>
 </p>
 
-# Desctription
+# Description
 
 National parks with trails <br>
 Role: Admin to enter in login page:  User - admin    Pass - admin<br>
