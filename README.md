@@ -1,7 +1,5 @@
 # ParkyWeb
 
-
-API needs JWT for authorizations
 <br />
 <p align="center">
   <a href="https://github.com/ivan-belyaev/ParkyWeb">
@@ -37,7 +35,7 @@ New user will be with role User<br>
 - [x] ASP.NET Core 3.1
 - [x] AutoMapper
 - [x] API Versioning
-- [x] JWT Authentication
+- [x] JWT Authentication (API needs JWT for authorizations)
 - [x] Role
 - [x] Swagger
 - [x] Default User & Role Seeding (Initialize in DbInitializer.cs)
