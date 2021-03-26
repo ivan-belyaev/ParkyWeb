@@ -32,3 +32,5 @@ New user will be with role User<br>
 - [x] Role
 - [x] Swagger
 - [x] Default User & Role Seeding (Initialize in DbInitializer.cs)
+- [x] Repository Pattern in API to database using EF
+- [x] HTTPClient calls API
