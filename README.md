@@ -1,12 +1,5 @@
 # ParkyWeb
- national parks with trails
- (Initialize in DbInitializer.cs)
-Role: Admin   User - admin    Pass - admin
-Role: User    User - test     Pass - test
 
-Admin would be able to perform all functionality, test user does not have persmission to Edit. 
-Admin can create national parks or add trails to national parks.
-New user will be with role User
 
 API needs JWT for authorizations
 <br />
@@ -28,3 +21,23 @@ API needs JWT for authorizations
     <a href="https://github.com/ivan-belyaev/ParkyWeb/issues">Request Feature</a>
   </p>
 </p>
+
+# Desctription
+
+National parks with trails <br>
+Role: Admin   User - admin    Pass - admin<br>
+Role: User    User - test     Pass - test<br>
+
+Admin would be able to perform all functionality, test user does not have persmission to Edit. <br>
+Admin can create national parks or add trails to national parks.<br>
+New user will be with role User<br>
+
+# Features
+
+- [x] ASP.NET Core 3.1
+- [x] AutoMapper
+- [x] API Versioning
+- [x] JWT Authentication
+- [x] Role
+- [x] Swagger
+- [x] Default User & Role Seeding (Initialize in DbInitializer.cs)
